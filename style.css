@@ -1,0 +1,299 @@
+body{
+  margin: 0;
+}
+
+.main-header{
+  background-color: purple;
+  color: white;
+  padding: 10px 0;
+  box-sizing: border-box;
+  height: 150px;
+}
+
+.title-class{
+  float: left;
+  margin-left: 150px;
+  box-sizing: border-box;
+}
+
+.name-class{
+  letter-spacing: 20px; 
+  font-size: 35px; 
+  float: left;
+}
+nav{
+  float: right;
+}
+
+ul{
+  list-style-type: none; 
+  padding-left: 300px;
+  padding-right: 130px;
+}
+ul li{
+  display: inline-block;
+  margin-top: 50px;
+  padding-left: 65px;
+}
+
+ul li a{
+   text-decoration: none;
+   color: white;
+   font-size: 18px;
+}
+
+ul li a:hover{
+  color: pink;
+}
+
+.about-title{
+  color: rgb(212, 90, 110);
+  font-size: 60px;
+  margin-bottom: 25px;
+}
+
+.about-desc hr{
+  border: 1.5px solid purple;
+  margin-top: 8px;
+  width: 160px;
+  margin-left: 50px;
+}
+.about-desc .rule{
+  border: 1.5px solid purple;
+  margin-top: 0px;
+  width: 270px;
+  margin-left: 0px;
+}
+
+.about-define{
+  margin-top: 30px;
+}
+.about-desc{
+  float: right; 
+  width: 50%; 
+  margin-top: 130px;
+  margin-right: 100px;
+  font-size: 20px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  line-height: 30px;
+}
+
+.my-pic{
+  float: left;
+  margin-top: 100px;
+}
+
+.my-pic img{
+  height: 500px;
+  width: 450px; 
+  margin-left: 200px;
+}
+
+.all-hobbies{
+  float: left;
+  Margin-top: 100px;
+  text-align: center;
+  background-color: rgba(242, 221, 242, 0.2);;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.all-hobbies h1{
+  color: rgb(212, 90, 110);
+  font-size: 60px;
+  margin-bottom: 5px;
+}
+
+.all-hobbies hr{
+  border: 1.5px solid purple;
+  margin-top: 8px;
+  width: 160px;
+}
+.all-hobbies .rule{
+  border: 1.5px solid purple;
+  margin-top: 0px;
+  width: 270px;
+}
+
+.all-hobbies p{
+  text-align: center;
+  margin: 0 350px;
+  font-size: 20px;
+  line-height: 35px;
+  margin-top: 50px;
+}
+
+.all-gallery{
+  float: left;
+  Margin-top: 150px;
+  text-align: center;
+  background-color: rgba(242, 221, 242, 0.2);;
+  width: 100%;
+  padding-top: 70px;
+  padding-bottom: 100px;
+}
+
+.all-gallery h1{
+  color: rgb(212, 90, 110);
+  font-size: 60px;
+  margin-bottom: 5px;
+}
+
+.all-gallery hr{
+  border: 1.5px solid purple;
+  margin-top: 8px;
+  width: 160px;
+}
+.all-gallery .rule{
+  border: 1.5px solid purple;
+  margin-top: 0px;
+  width: 270px;
+}
+
+.gallery-img{
+  margin-top: 50px;
+  text-align: center;
+  margin-left: 0px;
+}
+
+.gallery-img img{
+  width: 500px;
+  height: 400px;
+  padding-left: 30px;
+  padding-top: 20px;
+  border-radius: 70px;
+}
+
+.gallery-button{
+  margin-top: 10px;
+}
+
+.gallery-button button{
+  width: 100px;
+  height: 40px;
+  margin: 3px;
+  color: white;
+  background-color: rgb(212, 90, 110);
+  border: none;
+  font-size: 17px;
+  border-radius: 8px;
+}
+
+.gallery-button button:hover{
+  cursor: pointer;
+  color: pink;
+}
+
+.contact-info{
+  float: left;
+  text-align: center;
+  width: 100%;
+  margin-top: 150px;
+  background-color: rgba(242, 221, 242, 0.2);
+  padding-top: 70px;
+}
+.contact-header{
+  margin-bottom: 60px;
+}
+
+.contact-info h1{
+  color: rgb(212, 90, 110);
+  font-size: 60px;
+  line-height: 0px;
+}
+.contact-details{
+  float: left;
+}
+.connect{
+  float: left;
+  font-size: 110px;
+  font-family:"Poppins", san-serif;
+  font-weight: 600;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+.connect p{
+  line-height: 4px;
+  letter-spacing: 1px;
+  color: rgb(212, 90, 110);
+}
+.stay{
+ text-align: left;
+}
+.form-side{
+  text-align: center;
+  width: 900px;
+  height: 820px;
+  background-color: rgb(212, 90, 110);
+  margin-left: 800px;
+  padding-top: 10px;
+  text-decoration: none;
+  padding-left: 50px;
+}
+.form-field{
+  height: 0px;
+  text-align: left;
+  height: 500px;
+  border: none;
+}
+.form-field h1{
+    text-align: center;
+    color: white;
+    margin-bottom: 0px;
+}
+.contact-info hr{
+  border: 1.5px solid purple;
+  margin-top: 8px;
+  width: 160px;
+}
+.contact-info .rule{
+  border: 1.5px solid purple;
+  margin-top: 0px;
+  width: 270px;
+}
+.form-field label{
+  font-size: 25px;
+  line-height: 60px;
+  color: white;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.form-side .form-field input{
+  height: 45px;
+  width: 800px;
+  color: red;
+  font-size: 18px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+  border: 0.2px; 
+}
+
+.form-side .form-field .comment{
+  height: 120px;
+  margin-top: 30px;
+  width: 790px;
+  justify-content: center;
+  font-size: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  border: 0.2px; 
+}
+
+.form-side .form-field .submit-dept{
+  width: 800px;
+  height: 100px;
+  text-align: center;
+}
+.form-side .form-field .submit{
+  width: 150px;
+  height: 55px;
+  font-size: 20px;
+  font-family:"Poppins", san-serif;
+}
+
+.form-side .form-field .submit:hover{
+  cursor: pointer;
+  color: pink;
+}
